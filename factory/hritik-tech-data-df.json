@@ -1,0 +1,9 @@
+{
+	"name": "hritik-tech-data-df",
+	"location": "southindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "755ba723-b47c-4bd5-b63b-fd42f86c3353",
+		"tenantId": "c1ef404e-e969-4ae9-a555-1dbad21e687d"
+	}
+}

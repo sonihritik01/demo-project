@@ -1,0 +1,10 @@
+{
+	"name": "AzureKey_vault",
+	"properties": {
+		"annotations": [],
+		"type": "AzureKeyVault",
+		"typeProperties": {
+			"baseUrl": "https://hritik-new-keyvault.vault.azure.net/"
+		}
+	}
+}

@@ -5,6 +5,16 @@
 			"referenceName": "AzureDataLakeStorage_LinkedServices",
 			"type": "LinkedServiceReference"
 		},
+		"parameters": {
+			"schemaname": {
+				"type": "string",
+				"defaultValue": "item().SchemaName"
+			},
+			"tablename": {
+				"type": "string",
+				"defaultValue": "item().TableName"
+			}
+		},
 		"annotations": [],
 		"type": "Parquet",
 		"typeProperties": {

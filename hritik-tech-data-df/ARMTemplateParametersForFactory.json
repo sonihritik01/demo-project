@@ -1,0 +1,66 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "hritik-tech-data-df"
+		},
+		"AzureDataLakeStorageLinkedService_accountKey": {
+			"value": ""
+		},
+		"AzureDataLakeStorage_LinkedServices_accountKey": {
+			"value": ""
+		},
+		"AzureDataLakeStorageLinkedService_properties_typeProperties_url": {
+			"value": "https://hritikdatastorage.dfs.core.windows.net/"
+		},
+		"AzureDataLakeStorage_LinkedServices_properties_typeProperties_url": {
+			"value": "https://hritikdatastorage.dfs.core.windows.net/"
+		},
+		"AzureKeyVault_properties_typeProperties_baseUrl": {
+			"value": "https://hritik-new-keyvault.vault.azure.net/"
+		},
+		"AzureKeyVault1_properties_typeProperties_baseUrl": {
+			"value": "https://hritik-new-keyvault.vault.azure.net/"
+		},
+		"AzureKey_vault_properties_typeProperties_baseUrl": {
+			"value": "https://hritik-new-keyvault.vault.azure.net/"
+		},
+		"SqlServeOnPrem_linkedService_properties_typeProperties_server": {
+			"value": "DESKTOP-HRITIK\\SQLEXPRESS"
+		},
+		"SqlServeOnPrem_linkedService_properties_typeProperties_database": {
+			"value": "AdventureWorksLT2022"
+		},
+		"SqlServeOnPrem_linkedService_properties_typeProperties_userName": {
+			"value": "Hritik"
+		},
+		"SqlServer0nLinkedService_properties_typeProperties_server": {
+			"value": "DESKTOP-HRITIK\\SQLEXPRESS"
+		},
+		"SqlServer0nLinkedService_properties_typeProperties_database": {
+			"value": "AdventureWorksLT2022"
+		},
+		"SqlServer0nLinkedService_properties_typeProperties_userName": {
+			"value": "Hritik"
+		},
+		"SqlServerOnLinkedServices_properties_typeProperties_server": {
+			"value": "DESKTOP-HRITIK\\SQLEXPRESS"
+		},
+		"SqlServerOnLinkedServices_properties_typeProperties_database": {
+			"value": "AdventureWorksLT2022"
+		},
+		"SqlServerOnLinkedServices_properties_typeProperties_userName": {
+			"value": "Hritik"
+		},
+		"SqlServeronLinked_Service_properties_typeProperties_server": {
+			"value": "DESKTOP-HRITIK\\SQLEXPRESS"
+		},
+		"SqlServeronLinked_Service_properties_typeProperties_database": {
+			"value": "AdventureWorksLT2022"
+		},
+		"SqlServeronLinked_Service_properties_typeProperties_userName": {
+			"value": "Hritik"
+		}
+	}
+}
